@@ -1,0 +1,16 @@
+# Web Framework & Server
+fastapi>=0.110.0
+uvicorn>=0.27.1
+python-multipart>=0.0.9
+
+# Computer Vision & Math
+opencv-python
+numpy
+
+# Machine Learning Segmentation
+torch
+torchvision
+transformers
+
+# High-Performance Graph Computing
+rustworkx
