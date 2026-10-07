@@ -1,0 +1,59 @@
+# =========================
+# Node.js / React Frontend
+# =========================
+node_modules/
+dist/
+dist-ssr/
+.npm/
+.eslintcache
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# =========================
+# Python / FastAPI Backend
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+backend/.env
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Machine Learning & Images
+# =========================
+# Ignore heavy downloaded model weights
+*.pt
+*.pth
+*.onnx
+*.h5
+*.pb
+
+# Ignore local test images and generated datasets
+backend/uploads/
+backend/test_images/
+*.jpg
+*.jpeg
+*.png
+!frontend/public/tiny-blue-glow.png
+
+# =========================
+# OS & IDE Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
